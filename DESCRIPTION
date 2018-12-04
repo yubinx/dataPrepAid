@@ -1,0 +1,26 @@
+Package: dataPrepAid
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Help clean up and summarize data.
+Depends: R (>= 3.5.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
+Imports: 
+  rapportools (>= 1.0), 
+  corrplot (>= 0.84),
+  forcats (>= 0.3.0),
+  stringr (>= 1.3.1),
+  dplyr (>= 0.7.8),
+  purrr (>= 0.2.5),
+  readr (>= 1.1.1),
+  tidyr (>= 0.8.2),
+  tibble (>= 1.4.2),
+  tidyverse (>= 1.2.1),
+  lattice (>= 0.20-38),
+  psych (>= 1.8.10),
+  gridExtra (>= 2.3),
+  ggplot2 (>= 3.1.0),
+  reshape (>= 0.8.8)
